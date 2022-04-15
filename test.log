@@ -1,0 +1,1455 @@
+2022-04-14 21:17:38,498  INFO:   * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-14 21:17:38,500  INFO:   * Restarting with stat
+2022-04-14 21:17:39,845  WARNING:   * Debugger is active!
+2022-04-14 21:17:39,854  INFO:   * Debugger PIN: 950-895-299
+2022-04-14 21:17:49,084  INFO:  Rendering index.html
+2022-04-14 21:17:49,117  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:49] "GET / HTTP/1.1" 200 -
+2022-04-14 21:17:49,257  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-14 21:17:49,260  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-14 21:17:52,753  INFO:  Getting input from user
+2022-04-14 21:17:52,754  INFO:  Loading User info from user.json
+2022-04-14 21:17:52,756  INFO:  Creating connection with database params
+2022-04-14 21:17:52,756  INFO:  Creating Database
+2022-04-14 21:17:52,756  INFO:  Initiating Connection....
+2022-04-14 21:17:52,796  DEBUG:  # _do_auth(): user: root
+2022-04-14 21:17:52,796  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-14 21:17:52,797  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-14 21:17:52,798  INFO:  Creating cursor instance for existing connection
+2022-04-14 21:17:52,799  INFO:  Creating table
+2022-04-14 21:17:52,799  INFO:  Creating Table
+2022-04-14 21:17:52,840  INFO:  Performing Standard Scaling
+2022-04-14 21:17:52,840  INFO:  Performing Standard Scaling from operations.py
+2022-04-14 21:17:53,781  INFO:  Standard Scaling successful.
+2022-04-14 21:17:53,781  INFO:  Initializing Prediction from operations.py
+2022-04-14 21:17:53,862  INFO:  Prediction action performed successfully
+2022-04-14 21:17:53,862  INFO:  Inserting prediction into table
+2022-04-14 21:17:53,863  INFO:  Inserting predicted result in the table
+2022-04-14 21:17:53,868  INFO:  Gathering score and confusion matrix
+2022-04-14 21:17:53,868  INFO:  Gathering Accuracy score for all solvers
+2022-04-14 21:17:53,873  INFO:  Accuracy Scored gathered successfully
+2022-04-14 21:17:53,874  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-14 21:17:53,890  INFO:  Rendering result.html
+2022-04-14 21:17:53,901  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:53] "POST /predict HTTP/1.1" 200 -
+2022-04-14 21:17:53,933  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-14 21:17:56,033  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:56] "[36mGET /static/lbfgs_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:17:58,329  INFO:  127.0.0.1 - - [14/Apr/2022 21:17:58] "[36mGET /static/liblinear_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:18:00,892  INFO:  127.0.0.1 - - [14/Apr/2022 21:18:00] "[36mGET /static/newton_cg_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:18:03,705  INFO:  127.0.0.1 - - [14/Apr/2022 21:18:03] "[36mGET /static/newton_cg_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:18:06,204  INFO:  127.0.0.1 - - [14/Apr/2022 21:18:06] "[36mGET /static/sag_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:18:08,471  INFO:  127.0.0.1 - - [14/Apr/2022 21:18:08] "[36mGET /static/saga_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:18:11,082  INFO:  Rendering report.html for Pandas Profile
+2022-04-14 21:18:11,916  INFO:  127.0.0.1 - - [14/Apr/2022 21:18:11] "POST /report HTTP/1.1" 200 -
+2022-04-14 21:18:14,317  INFO:  127.0.0.1 - - [14/Apr/2022 21:18:14] "[36mGET /static/data_plot.png HTTP/1.1[0m" 304 -
+2022-04-14 21:18:21,887  INFO:  Running app...
+2022-04-14 21:18:22,023  INFO:  Running app...
+2022-04-15 09:34:26,994  INFO:   * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-15 09:34:27,007  INFO:   * Restarting with stat
+2022-04-15 09:34:28,621  WARNING:   * Debugger is active!
+2022-04-15 09:34:28,740  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:35:04,176  INFO:  Rendering index.html
+2022-04-15 09:35:04,362  INFO:  127.0.0.1 - - [15/Apr/2022 09:35:04] "GET / HTTP/1.1" 200 -
+2022-04-15 09:35:04,479  INFO:  127.0.0.1 - - [15/Apr/2022 09:35:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-15 09:35:04,490  INFO:  127.0.0.1 - - [15/Apr/2022 09:35:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:35:04,773  INFO:  127.0.0.1 - - [15/Apr/2022 09:35:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-15 09:35:10,751  INFO:  Getting input from user
+2022-04-15 09:35:10,815  INFO:  Loading User info from user.json
+2022-04-15 09:35:10,815  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:35:10,815  INFO:  Creating Database
+2022-04-15 09:35:10,815  INFO:  Initiating Connection....
+2022-04-15 09:35:12,316  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:35:12,316  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:35:12,318  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:35:12,322  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:35:12,324  ERROR:  Error while Creating a connection
+2022-04-15 09:35:12,324  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:35:12,335  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:35:12,335  INFO:  Creating Table
+2022-04-15 09:35:12,383  ERROR:  Error while creating table
+2022-04-15 09:35:12,383  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:35:12,384  INFO:  Performing Standard Scaling
+2022-04-15 09:35:12,384  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:35:23,368  INFO:  Standard Scaling successful.
+2022-04-15 09:35:23,369  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:35:24,139  INFO:  Prediction action performed successfully
+2022-04-15 09:35:24,143  INFO:  Inserting prediction into table
+2022-04-15 09:35:24,143  INFO:  Inserting predicted result in the table
+2022-04-15 09:35:24,162  ERROR:  Error while inserting predicted values
+2022-04-15 09:35:24,162  ERROR:  Error while inserting predicted values to the table: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 130, in predict
+    doc[i] = y_list_pred[i][0]
+TypeError: list indices must be integers or slices, not str
+2022-04-15 09:35:24,163  INFO:  Gathering score and confusion matrix
+2022-04-15 09:35:24,163  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:35:24,187  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:35:24,187  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:35:24,292  INFO:  Rendering result.html
+2022-04-15 09:35:24,366  INFO:  127.0.0.1 - - [15/Apr/2022 09:35:24] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:35:24,416  INFO:  127.0.0.1 - - [15/Apr/2022 09:35:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:36:01,663  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:36:02,329  INFO:   * Restarting with stat
+2022-04-15 09:36:03,921  WARNING:   * Debugger is active!
+2022-04-15 09:36:03,930  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:36:17,760  INFO:  Getting input from user
+2022-04-15 09:36:17,763  INFO:  Loading User info from user.json
+2022-04-15 09:36:17,763  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:36:17,766  INFO:  Creating Database
+2022-04-15 09:36:17,766  INFO:  Initiating Connection....
+2022-04-15 09:36:18,951  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:36:18,951  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:36:18,951  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:36:18,956  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:36:18,957  ERROR:  Error while Creating a connection
+2022-04-15 09:36:18,957  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:36:18,957  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:36:18,957  INFO:  Creating Table
+2022-04-15 09:36:19,009  ERROR:  Error while creating table
+2022-04-15 09:36:19,009  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:36:19,009  INFO:  Performing Standard Scaling
+2022-04-15 09:36:19,009  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:36:20,130  INFO:  Standard Scaling successful.
+2022-04-15 09:36:20,130  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:36:20,197  INFO:  Prediction action performed successfully
+2022-04-15 09:36:20,198  INFO:  Inserting prediction into table
+2022-04-15 09:36:20,198  INFO:  Inserting predicted result in the table
+2022-04-15 09:36:20,205  ERROR:  Error while inserting predicted values
+2022-04-15 09:36:20,205  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    coll = mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:36:20,206  INFO:  Gathering score and confusion matrix
+2022-04-15 09:36:20,206  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:36:20,213  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:36:20,213  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:36:20,238  INFO:  Rendering result.html
+2022-04-15 09:36:20,269  INFO:  127.0.0.1 - - [15/Apr/2022 09:36:20] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:36:20,325  INFO:  127.0.0.1 - - [15/Apr/2022 09:36:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:38:06,855  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:38:07,150  INFO:   * Restarting with stat
+2022-04-15 09:38:08,656  WARNING:   * Debugger is active!
+2022-04-15 09:38:08,661  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:38:11,893  INFO:  Getting input from user
+2022-04-15 09:38:11,897  INFO:  Loading User info from user.json
+2022-04-15 09:38:11,897  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:38:11,897  INFO:  Creating Database
+2022-04-15 09:38:11,897  INFO:  Initiating Connection....
+2022-04-15 09:38:12,909  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:38:12,909  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:38:12,910  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:38:12,912  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:38:12,913  ERROR:  Error while Creating a connection
+2022-04-15 09:38:12,913  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:38:12,914  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:38:12,916  INFO:  Creating Table
+2022-04-15 09:38:12,917  ERROR:  Error while creating table
+2022-04-15 09:38:12,917  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:38:13,351  ERROR:  Error while creating table
+2022-04-15 09:38:13,351  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:38:13,352  INFO:  Performing Standard Scaling
+2022-04-15 09:38:13,352  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:38:14,563  INFO:  Standard Scaling successful.
+2022-04-15 09:38:14,563  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:38:14,629  INFO:  Prediction action performed successfully
+2022-04-15 09:38:14,629  INFO:  Inserting prediction into table
+2022-04-15 09:38:14,629  INFO:  Inserting predicted result in the table
+2022-04-15 09:38:14,629  ERROR:  Error while inserting data to the table
+2022-04-15 09:38:14,629  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:38:14,629  ERROR:  Error while inserting predicted values
+2022-04-15 09:38:14,629  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:38:14,629  INFO:  Gathering score and confusion matrix
+2022-04-15 09:38:14,629  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:38:14,634  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:38:14,634  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:38:14,652  INFO:  Rendering result.html
+2022-04-15 09:38:14,665  INFO:  127.0.0.1 - - [15/Apr/2022 09:38:14] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:38:14,698  INFO:  127.0.0.1 - - [15/Apr/2022 09:38:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:40:26,733  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\mongo_oper.py', reloading
+2022-04-15 09:40:27,114  INFO:   * Restarting with stat
+2022-04-15 09:40:29,096  WARNING:   * Debugger is active!
+2022-04-15 09:40:29,100  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:40:40,063  INFO:  Getting input from user
+2022-04-15 09:40:40,071  INFO:  Loading User info from user.json
+2022-04-15 09:40:40,072  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:40:40,072  INFO:  Creating Database
+2022-04-15 09:40:40,072  INFO:  Initiating Connection....
+2022-04-15 09:40:41,256  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:40:41,257  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:40:41,257  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:40:41,262  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:40:41,264  ERROR:  Error while Creating a connection
+2022-04-15 09:40:41,264  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:40:41,268  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:40:41,268  INFO:  Creating Table
+2022-04-15 09:40:41,272  ERROR:  Error while creating table
+2022-04-15 09:40:41,272  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:40:41,278  ERROR:  Error while creating table
+2022-04-15 09:40:41,278  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:40:41,278  INFO:  Performing Standard Scaling
+2022-04-15 09:40:41,278  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:40:43,121  INFO:  Standard Scaling successful.
+2022-04-15 09:40:43,121  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:40:43,315  INFO:  Prediction action performed successfully
+2022-04-15 09:40:43,316  INFO:  Inserting prediction into table
+2022-04-15 09:40:43,316  INFO:  Inserting predicted result in the table
+2022-04-15 09:40:43,316  ERROR:  Error while inserting data to the table
+2022-04-15 09:40:43,316  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:40:43,318  ERROR:  Error while inserting predicted values
+2022-04-15 09:40:43,318  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:40:43,318  INFO:  Gathering score and confusion matrix
+2022-04-15 09:40:43,318  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:40:43,339  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:40:43,340  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:40:43,389  INFO:  Rendering result.html
+2022-04-15 09:40:43,424  INFO:  127.0.0.1 - - [15/Apr/2022 09:40:43] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:40:43,462  INFO:  127.0.0.1 - - [15/Apr/2022 09:40:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:41:20,909  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:41:21,165  INFO:   * Restarting with stat
+2022-04-15 09:41:22,585  WARNING:   * Debugger is active!
+2022-04-15 09:41:22,593  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:41:26,901  INFO:  Getting input from user
+2022-04-15 09:41:26,905  INFO:  Loading User info from user.json
+2022-04-15 09:41:26,906  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:41:26,906  INFO:  Creating Database
+2022-04-15 09:41:26,906  INFO:  Initiating Connection....
+2022-04-15 09:41:28,082  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:41:28,082  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:41:28,084  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:41:28,087  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:41:28,088  ERROR:  Error while Creating a connection
+2022-04-15 09:41:28,089  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:41:28,093  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:41:28,093  INFO:  Creating Table
+2022-04-15 09:41:28,149  ERROR:  Error while creating table
+2022-04-15 09:41:28,149  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:41:28,150  INFO:  Performing Standard Scaling
+2022-04-15 09:41:28,150  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:41:29,616  INFO:  Standard Scaling successful.
+2022-04-15 09:41:29,616  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:41:29,744  INFO:  Prediction action performed successfully
+2022-04-15 09:41:29,744  INFO:  Inserting prediction into table
+2022-04-15 09:41:29,744  INFO:  Inserting predicted result in the table
+2022-04-15 09:41:29,754  ERROR:  Error while inserting predicted values
+2022-04-15 09:41:29,754  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    coll = mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:41:29,755  INFO:  Gathering score and confusion matrix
+2022-04-15 09:41:29,755  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:41:29,767  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:41:29,767  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:41:29,802  INFO:  Rendering result.html
+2022-04-15 09:41:29,844  INFO:  127.0.0.1 - - [15/Apr/2022 09:41:29] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:41:29,884  INFO:  127.0.0.1 - - [15/Apr/2022 09:41:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:42:59,496  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:42:59,663  INFO:   * Restarting with stat
+2022-04-15 09:43:00,959  WARNING:   * Debugger is active!
+2022-04-15 09:43:00,967  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:43:09,989  INFO:  Getting input from user
+2022-04-15 09:43:09,990  INFO:  Loading User info from user.json
+2022-04-15 09:43:09,991  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:43:09,991  INFO:  Creating Database
+2022-04-15 09:43:09,991  INFO:  Initiating Connection....
+2022-04-15 09:43:10,549  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:43:10,549  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:43:10,550  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:43:10,552  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:43:10,553  ERROR:  Error while Creating a connection
+2022-04-15 09:43:10,553  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:43:10,555  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:43:10,555  INFO:  Creating Table
+2022-04-15 09:43:10,585  ERROR:  Error while creating table
+2022-04-15 09:43:10,585  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:43:10,585  INFO:  Performing Standard Scaling
+2022-04-15 09:43:10,586  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:43:11,459  INFO:  Standard Scaling successful.
+2022-04-15 09:43:11,459  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:43:11,525  INFO:  Prediction action performed successfully
+2022-04-15 09:43:11,525  INFO:  Inserting prediction into table
+2022-04-15 09:43:11,526  INFO:  Inserting predicted result in the table
+2022-04-15 09:43:11,530  ERROR:  Error while inserting predicted values
+2022-04-15 09:43:11,530  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    new_coll = coll
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:43:11,530  INFO:  Gathering score and confusion matrix
+2022-04-15 09:43:11,531  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:43:11,536  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:43:11,536  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:43:11,552  INFO:  Rendering result.html
+2022-04-15 09:43:11,568  INFO:  127.0.0.1 - - [15/Apr/2022 09:43:11] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:43:11,602  INFO:  127.0.0.1 - - [15/Apr/2022 09:43:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:43:19,400  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:43:19,560  INFO:   * Restarting with stat
+2022-04-15 09:43:20,799  WARNING:   * Debugger is active!
+2022-04-15 09:43:20,807  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:43:43,678  INFO:  Running app...
+2022-04-15 09:43:43,763  INFO:  Running app...
+2022-04-15 09:45:39,376  INFO:   * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-15 09:45:39,378  INFO:   * Restarting with stat
+2022-04-15 09:45:40,667  WARNING:   * Debugger is active!
+2022-04-15 09:45:40,675  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:45:41,767  INFO:  Getting input from user
+2022-04-15 09:45:41,769  INFO:  Loading User info from user.json
+2022-04-15 09:45:41,770  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:45:41,770  INFO:  Creating Database
+2022-04-15 09:45:41,770  INFO:  Initiating Connection....
+2022-04-15 09:45:42,255  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:45:42,255  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:45:42,256  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:45:42,258  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:45:42,259  ERROR:  Error while Creating a connection
+2022-04-15 09:45:42,259  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:45:42,261  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:45:42,261  INFO:  Creating Table
+2022-04-15 09:45:42,290  ERROR:  Error while creating table
+2022-04-15 09:45:42,290  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:45:42,291  INFO:  Performing Standard Scaling
+2022-04-15 09:45:42,291  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:45:43,161  INFO:  Standard Scaling successful.
+2022-04-15 09:45:43,161  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:45:43,227  INFO:  Prediction action performed successfully
+2022-04-15 09:45:43,227  INFO:  Inserting prediction into table
+2022-04-15 09:45:43,227  INFO:  Inserting predicted result in the table
+2022-04-15 09:45:43,233  ERROR:  Error while inserting predicted values
+2022-04-15 09:45:43,233  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    new_coll = mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:45:43,234  INFO:  Gathering score and confusion matrix
+2022-04-15 09:45:43,234  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:45:43,239  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:45:43,239  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:45:43,254  INFO:  Rendering result.html
+2022-04-15 09:45:43,271  INFO:  127.0.0.1 - - [15/Apr/2022 09:45:43] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:45:43,305  INFO:  127.0.0.1 - - [15/Apr/2022 09:45:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:47:39,065  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:47:39,234  INFO:   * Restarting with stat
+2022-04-15 09:47:40,522  WARNING:   * Debugger is active!
+2022-04-15 09:47:40,530  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:47:42,780  INFO:  Getting input from user
+2022-04-15 09:47:42,782  INFO:  Loading User info from user.json
+2022-04-15 09:47:42,782  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:47:42,782  INFO:  Creating Database
+2022-04-15 09:47:42,783  INFO:  Initiating Connection....
+2022-04-15 09:47:43,331  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:47:43,331  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:47:43,331  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:47:43,333  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:47:43,335  ERROR:  Error while Creating a connection
+2022-04-15 09:47:43,335  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:47:43,337  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:47:43,337  INFO:  Creating Table
+2022-04-15 09:47:43,339  ERROR:  Error while creating table
+2022-04-15 09:47:43,339  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:47:43,342  ERROR:  Error while creating table
+2022-04-15 09:47:43,342  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:47:43,342  INFO:  Performing Standard Scaling
+2022-04-15 09:47:43,342  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:47:44,213  INFO:  Standard Scaling successful.
+2022-04-15 09:47:44,213  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:47:44,279  INFO:  Prediction action performed successfully
+2022-04-15 09:47:44,279  INFO:  Inserting prediction into table
+2022-04-15 09:47:44,279  INFO:  Inserting predicted result in the table
+2022-04-15 09:47:44,280  ERROR:  Error while inserting data to the table
+2022-04-15 09:47:44,280  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:47:44,280  ERROR:  Error while inserting predicted values
+2022-04-15 09:47:44,280  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    new_coll = mongo_oper.insert_doc(coll_n=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:47:44,280  INFO:  Gathering score and confusion matrix
+2022-04-15 09:47:44,280  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:47:44,286  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:47:44,286  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:47:44,301  INFO:  Rendering result.html
+2022-04-15 09:47:44,315  INFO:  127.0.0.1 - - [15/Apr/2022 09:47:44] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:47:44,344  INFO:  127.0.0.1 - - [15/Apr/2022 09:47:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:47:53,905  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:47:54,064  INFO:   * Restarting with stat
+2022-04-15 09:47:55,294  WARNING:   * Debugger is active!
+2022-04-15 09:47:55,302  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:48:00,414  INFO:  Getting input from user
+2022-04-15 09:48:00,416  INFO:  Loading User info from user.json
+2022-04-15 09:48:00,417  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:48:00,417  INFO:  Creating Database
+2022-04-15 09:48:00,417  INFO:  Initiating Connection....
+2022-04-15 09:48:00,905  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:48:00,905  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:48:00,905  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:48:00,907  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:48:00,908  ERROR:  Error while Creating a connection
+2022-04-15 09:48:00,908  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:48:00,911  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:48:00,911  INFO:  Creating Table
+2022-04-15 09:48:00,912  ERROR:  Error while creating table
+2022-04-15 09:48:00,913  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:48:00,916  ERROR:  Error while creating table
+2022-04-15 09:48:00,916  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:48:00,916  INFO:  Performing Standard Scaling
+2022-04-15 09:48:00,916  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:48:01,796  INFO:  Standard Scaling successful.
+2022-04-15 09:48:01,797  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:48:01,868  INFO:  Prediction action performed successfully
+2022-04-15 09:48:01,868  INFO:  Inserting prediction into table
+2022-04-15 09:48:01,868  INFO:  Inserting predicted result in the table
+2022-04-15 09:48:01,868  ERROR:  Error while inserting data to the table
+2022-04-15 09:48:01,868  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:48:01,869  ERROR:  Error while inserting predicted values
+2022-04-15 09:48:01,869  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    coll = mongo_oper.insert_doc(coll_n=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:48:01,869  INFO:  Gathering score and confusion matrix
+2022-04-15 09:48:01,869  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:48:01,876  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:48:01,877  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:48:01,893  INFO:  Rendering result.html
+2022-04-15 09:48:01,908  INFO:  127.0.0.1 - - [15/Apr/2022 09:48:01] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:48:01,932  INFO:  127.0.0.1 - - [15/Apr/2022 09:48:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:49:33,503  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\mongo_oper.py', reloading
+2022-04-15 09:49:33,663  INFO:   * Restarting with stat
+2022-04-15 09:49:34,913  WARNING:   * Debugger is active!
+2022-04-15 09:49:34,921  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:49:41,614  INFO:  Getting input from user
+2022-04-15 09:49:41,616  INFO:  Loading User info from user.json
+2022-04-15 09:49:41,616  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:49:41,617  INFO:  Creating Database
+2022-04-15 09:49:41,617  INFO:  Initiating Connection....
+2022-04-15 09:49:42,115  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:49:42,115  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:49:42,115  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:49:42,117  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:49:42,118  ERROR:  Error while Creating a connection
+2022-04-15 09:49:42,118  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 79, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:49:42,121  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:49:42,121  INFO:  Creating Table
+2022-04-15 09:49:42,122  ERROR:  Error while creating table
+2022-04-15 09:49:42,122  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:49:42,125  ERROR:  Error while creating table
+2022-04-15 09:49:42,125  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 94, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:49:42,126  INFO:  Performing Standard Scaling
+2022-04-15 09:49:42,126  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:49:42,991  INFO:  Standard Scaling successful.
+2022-04-15 09:49:42,992  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:49:43,059  INFO:  Prediction action performed successfully
+2022-04-15 09:49:43,059  INFO:  Inserting prediction into table
+2022-04-15 09:49:43,059  INFO:  Inserting predicted result in the table
+2022-04-15 09:49:43,059  ERROR:  Error while inserting data to the table
+2022-04-15 09:49:43,059  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:49:43,059  ERROR:  Error while inserting predicted values
+2022-04-15 09:49:43,059  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:49:43,060  INFO:  Gathering score and confusion matrix
+2022-04-15 09:49:43,060  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:49:43,065  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:49:43,066  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:49:43,087  INFO:  Rendering result.html
+2022-04-15 09:49:43,106  INFO:  127.0.0.1 - - [15/Apr/2022 09:49:43] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:49:43,130  INFO:  127.0.0.1 - - [15/Apr/2022 09:49:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:52:28,733  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:52:28,901  INFO:   * Restarting with stat
+2022-04-15 09:52:30,127  WARNING:   * Debugger is active!
+2022-04-15 09:52:30,456  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:52:35,275  INFO:  Getting input from user
+2022-04-15 09:52:35,277  INFO:  Loading User info from user.json
+2022-04-15 09:52:35,277  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:52:35,278  INFO:  Creating Database
+2022-04-15 09:52:35,278  INFO:  Initiating Connection....
+2022-04-15 09:52:35,764  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:52:35,764  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:52:35,765  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:52:35,766  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:52:35,767  ERROR:  Error while Creating a connection
+2022-04-15 09:52:35,768  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:52:35,770  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:52:35,770  INFO:  Creating Table
+2022-04-15 09:52:35,810  ERROR:  Error while creating table
+2022-04-15 09:52:35,810  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 95, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:52:35,810  INFO:  Performing Standard Scaling
+2022-04-15 09:52:35,810  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:52:36,677  INFO:  Standard Scaling successful.
+2022-04-15 09:52:36,677  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:52:36,746  INFO:  Prediction action performed successfully
+2022-04-15 09:52:36,747  INFO:  Inserting prediction into table
+2022-04-15 09:52:36,747  INFO:  Inserting predicted result in the table
+2022-04-15 09:52:36,753  ERROR:  Error while inserting predicted values
+2022-04-15 09:52:36,753  ERROR:  Error while inserting predicted values to the table: name 'coll' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 133, in predict
+    mongo_oper.insert_doc(coll=coll, doc=doc)
+NameError: name 'coll' is not defined
+2022-04-15 09:52:36,753  INFO:  Gathering score and confusion matrix
+2022-04-15 09:52:36,753  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:52:36,759  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:52:36,759  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:52:36,774  INFO:  Rendering result.html
+2022-04-15 09:52:36,789  INFO:  127.0.0.1 - - [15/Apr/2022 09:52:36] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:52:36,815  INFO:  127.0.0.1 - - [15/Apr/2022 09:52:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:54:00,349  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:54:00,513  INFO:   * Restarting with stat
+2022-04-15 09:54:01,791  WARNING:   * Debugger is active!
+2022-04-15 09:54:01,799  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:54:04,689  INFO:  Getting input from user
+2022-04-15 09:54:04,691  INFO:  Loading User info from user.json
+2022-04-15 09:54:04,692  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:54:04,692  INFO:  Creating Database
+2022-04-15 09:54:04,692  INFO:  Initiating Connection....
+2022-04-15 09:54:05,186  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:54:05,186  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:54:05,187  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:54:05,188  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:54:05,190  ERROR:  Error while Creating a connection
+2022-04-15 09:54:05,190  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 82, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:54:05,192  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:54:05,192  INFO:  Creating Table
+2022-04-15 09:54:05,194  ERROR:  Error while creating table
+2022-04-15 09:54:05,194  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:54:05,197  ERROR:  Error while creating table
+2022-04-15 09:54:05,197  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 97, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:54:05,197  INFO:  Performing Standard Scaling
+2022-04-15 09:54:05,198  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:54:06,067  INFO:  Standard Scaling successful.
+2022-04-15 09:54:06,067  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:54:06,135  INFO:  Prediction action performed successfully
+2022-04-15 09:54:06,135  INFO:  Inserting prediction into table
+2022-04-15 09:54:06,135  INFO:  Inserting predicted result in the table
+2022-04-15 09:54:06,135  ERROR:  Error while inserting data to the table
+2022-04-15 09:54:06,135  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:54:06,136  ERROR:  Error while inserting predicted values
+2022-04-15 09:54:06,136  ERROR:  Error while inserting predicted values to the table: local variable 'coll' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 135, in predict
+    mongo_oper.insert_doc(coll=coll, doc=doc)
+UnboundLocalError: local variable 'coll' referenced before assignment
+2022-04-15 09:54:06,136  INFO:  Gathering score and confusion matrix
+2022-04-15 09:54:06,136  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:54:06,142  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:54:06,142  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:54:06,157  INFO:  Rendering result.html
+2022-04-15 09:54:06,172  INFO:  127.0.0.1 - - [15/Apr/2022 09:54:06] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:54:06,198  INFO:  127.0.0.1 - - [15/Apr/2022 09:54:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:55:18,642  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:55:18,807  INFO:   * Restarting with stat
+2022-04-15 09:55:20,043  WARNING:   * Debugger is active!
+2022-04-15 09:55:20,051  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:56:46,782  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:56:46,873  INFO:   * Restarting with stat
+2022-04-15 09:56:48,137  WARNING:   * Debugger is active!
+2022-04-15 09:56:48,145  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:56:50,911  INFO:  Getting input from user
+2022-04-15 09:56:50,913  INFO:  Loading User info from user.json
+2022-04-15 09:56:50,913  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:56:50,913  INFO:  Creating Database
+2022-04-15 09:56:50,914  INFO:  Initiating Connection....
+2022-04-15 09:56:51,402  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:56:51,402  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:56:51,402  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:56:51,404  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:56:51,405  ERROR:  Error while Creating a connection
+2022-04-15 09:56:51,405  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:56:51,408  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:56:51,408  INFO:  Creating Table
+2022-04-15 09:56:51,409  ERROR:  Error while creating table
+2022-04-15 09:56:51,409  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:56:51,412  ERROR:  Error while creating table
+2022-04-15 09:56:51,412  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 95, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:56:51,413  INFO:  Performing Standard Scaling
+2022-04-15 09:56:51,413  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:56:52,279  INFO:  Standard Scaling successful.
+2022-04-15 09:56:52,279  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:56:52,346  INFO:  Prediction action performed successfully
+2022-04-15 09:56:52,346  INFO:  Inserting prediction into table
+2022-04-15 09:56:52,346  INFO:  Inserting predicted result in the table
+2022-04-15 09:56:52,346  ERROR:  Error while inserting data to the table
+2022-04-15 09:56:52,347  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:56:52,379  INFO:  127.0.0.1 - - [15/Apr/2022 09:56:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-04-15 09:56:52,413  INFO:  127.0.0.1 - - [15/Apr/2022 09:56:52] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-15 09:56:52,414  INFO:  127.0.0.1 - - [15/Apr/2022 09:56:52] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:56:52,471  INFO:  127.0.0.1 - - [15/Apr/2022 09:56:52] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-15 09:56:52,512  INFO:  127.0.0.1 - - [15/Apr/2022 09:56:52] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-15 09:57:29,200  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:57:29,361  INFO:   * Restarting with stat
+2022-04-15 09:57:30,620  WARNING:   * Debugger is active!
+2022-04-15 09:57:30,627  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:58:58,602  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:58:58,691  INFO:   * Restarting with stat
+2022-04-15 09:58:59,908  WARNING:   * Debugger is active!
+2022-04-15 09:58:59,916  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:59:02,665  INFO:  Getting input from user
+2022-04-15 09:59:02,666  INFO:  Loading User info from user.json
+2022-04-15 09:59:02,667  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 09:59:02,667  INFO:  Creating Database
+2022-04-15 09:59:02,667  INFO:  Initiating Connection....
+2022-04-15 09:59:03,208  DEBUG:  # _do_auth(): user: root
+2022-04-15 09:59:03,208  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 09:59:03,209  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 09:59:03,211  INFO:  Creating cursor instance for existing connection
+2022-04-15 09:59:03,212  ERROR:  Error while Creating a connection
+2022-04-15 09:59:03,212  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 9, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 09:59:03,214  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 09:59:03,214  INFO:  Creating Table
+2022-04-15 09:59:03,216  ERROR:  Error while creating table
+2022-04-15 09:59:03,216  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 09:59:03,219  ERROR:  Error while creating table
+2022-04-15 09:59:03,219  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 95, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 09:59:03,219  INFO:  Performing Standard Scaling
+2022-04-15 09:59:03,219  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 09:59:04,095  INFO:  Standard Scaling successful.
+2022-04-15 09:59:04,095  INFO:  Initializing Prediction from operations.py
+2022-04-15 09:59:04,163  INFO:  Prediction action performed successfully
+2022-04-15 09:59:04,163  INFO:  Inserting prediction into table
+2022-04-15 09:59:04,163  INFO:  Inserting predicted result in the table
+2022-04-15 09:59:04,163  ERROR:  Error while inserting data to the table
+2022-04-15 09:59:04,164  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 09:59:04,164  ERROR:  Error while inserting predicted values
+2022-04-15 09:59:04,164  ERROR:  Error while inserting predicted values to the table: local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 133, in predict
+    mongo_oper.insert_doc(db=db, coll_name=user_info['coll_name'], doc=doc)
+UnboundLocalError: local variable 'db' referenced before assignment
+2022-04-15 09:59:04,164  INFO:  Gathering score and confusion matrix
+2022-04-15 09:59:04,165  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 09:59:04,170  INFO:  Accuracy Scored gathered successfully
+2022-04-15 09:59:04,170  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 09:59:04,185  INFO:  Rendering result.html
+2022-04-15 09:59:04,200  INFO:  127.0.0.1 - - [15/Apr/2022 09:59:04] "POST /predict HTTP/1.1" 200 -
+2022-04-15 09:59:04,230  INFO:  127.0.0.1 - - [15/Apr/2022 09:59:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 09:59:20,760  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:59:20,915  INFO:   * Restarting with stat
+2022-04-15 09:59:22,223  WARNING:   * Debugger is active!
+2022-04-15 09:59:22,231  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 09:59:29,396  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 09:59:29,476  INFO:   * Restarting with stat
+2022-04-15 09:59:30,712  WARNING:   * Debugger is active!
+2022-04-15 09:59:30,720  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:01:59,907  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\mongo_oper.py', reloading
+2022-04-15 10:01:59,991  INFO:   * Restarting with stat
+2022-04-15 10:02:01,347  WARNING:   * Debugger is active!
+2022-04-15 10:02:01,356  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:02:13,814  INFO:  Getting input from user
+2022-04-15 10:02:13,816  INFO:  Loading User info from user.json
+2022-04-15 10:02:13,816  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 10:02:13,816  INFO:  Creating Database
+2022-04-15 10:02:13,816  INFO:  Initiating Connection....
+2022-04-15 10:02:14,305  DEBUG:  # _do_auth(): user: root
+2022-04-15 10:02:14,305  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 10:02:14,305  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 10:02:14,307  INFO:  Creating cursor instance for existing connection
+2022-04-15 10:02:14,308  ERROR:  Error while Creating a connection
+2022-04-15 10:02:14,308  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 10, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:02:14,311  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 10:02:14,311  INFO:  Creating Table
+2022-04-15 10:02:14,340  ERROR:  Error while creating table
+2022-04-15 10:02:14,340  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 95, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 10:02:14,340  INFO:  Performing Standard Scaling
+2022-04-15 10:02:14,341  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 10:02:15,213  INFO:  Standard Scaling successful.
+2022-04-15 10:02:15,213  INFO:  Initializing Prediction from operations.py
+2022-04-15 10:02:15,282  INFO:  Prediction action performed successfully
+2022-04-15 10:02:15,282  INFO:  Inserting prediction into table
+2022-04-15 10:02:15,282  INFO:  Inserting predicted result in the table
+2022-04-15 10:02:15,288  ERROR:  Error while inserting predicted values
+2022-04-15 10:02:15,288  ERROR:  Error while inserting predicted values to the table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 133, in predict
+    mongo_oper.insert_doc(db_name=user_info['db_name'], coll_name=user_info['coll_name'], doc=doc)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 27, in insert_doc
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 10, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:02:15,289  INFO:  Gathering score and confusion matrix
+2022-04-15 10:02:15,289  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 10:02:15,295  INFO:  Accuracy Scored gathered successfully
+2022-04-15 10:02:15,295  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 10:02:15,311  INFO:  Rendering result.html
+2022-04-15 10:02:15,327  INFO:  127.0.0.1 - - [15/Apr/2022 10:02:15] "POST /predict HTTP/1.1" 200 -
+2022-04-15 10:02:15,351  INFO:  127.0.0.1 - - [15/Apr/2022 10:02:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 10:03:46,528  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 10:03:46,680  INFO:   * Restarting with stat
+2022-04-15 10:03:47,921  WARNING:   * Debugger is active!
+2022-04-15 10:03:47,929  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:03:51,946  INFO:  Getting input from user
+2022-04-15 10:03:51,948  INFO:  Loading User info from user.json
+2022-04-15 10:03:51,948  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 10:03:51,948  INFO:  Creating Database
+2022-04-15 10:03:51,949  INFO:  Initiating Connection....
+2022-04-15 10:03:52,437  DEBUG:  # _do_auth(): user: root
+2022-04-15 10:03:52,437  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 10:03:52,438  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 10:03:52,439  INFO:  Creating cursor instance for existing connection
+2022-04-15 10:03:52,440  ERROR:  Error while Creating a connection
+2022-04-15 10:03:52,441  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 10, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:03:52,443  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 10:03:52,443  INFO:  Creating Table
+2022-04-15 10:03:52,444  ERROR:  Error while creating table
+2022-04-15 10:03:52,445  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 10:03:52,447  ERROR:  Error while creating table
+2022-04-15 10:03:52,447  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 95, in predict
+    db = mongo_oper.create_db(client=client, db_name=user_info['db_name'])
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 10:03:52,448  INFO:  Performing Standard Scaling
+2022-04-15 10:03:52,448  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 10:03:53,308  INFO:  Standard Scaling successful.
+2022-04-15 10:03:53,308  INFO:  Initializing Prediction from operations.py
+2022-04-15 10:03:53,376  INFO:  Prediction action performed successfully
+2022-04-15 10:03:53,376  INFO:  Inserting prediction into table
+2022-04-15 10:03:53,376  INFO:  Inserting predicted result in the table
+2022-04-15 10:03:53,376  ERROR:  Error while inserting data to the table
+2022-04-15 10:03:53,376  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 10:03:53,377  ERROR:  Error while inserting predicted values
+2022-04-15 10:03:53,377  ERROR:  Error while inserting predicted values to the table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 132, in predict
+    client.close()
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 10:03:53,377  INFO:  Gathering score and confusion matrix
+2022-04-15 10:03:53,377  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 10:03:53,383  INFO:  Accuracy Scored gathered successfully
+2022-04-15 10:03:53,383  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 10:03:53,398  INFO:  Rendering result.html
+2022-04-15 10:03:53,412  INFO:  127.0.0.1 - - [15/Apr/2022 10:03:53] "POST /predict HTTP/1.1" 200 -
+2022-04-15 10:03:53,444  INFO:  127.0.0.1 - - [15/Apr/2022 10:03:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 10:04:18,656  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 10:04:18,814  INFO:   * Restarting with stat
+2022-04-15 10:04:20,155  WARNING:   * Debugger is active!
+2022-04-15 10:04:20,163  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:04:21,007  INFO:  Getting input from user
+2022-04-15 10:04:21,009  INFO:  Loading User info from user.json
+2022-04-15 10:04:21,009  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 10:04:21,009  INFO:  Creating Database
+2022-04-15 10:04:21,009  INFO:  Initiating Connection....
+2022-04-15 10:04:21,435  DEBUG:  # _do_auth(): user: root
+2022-04-15 10:04:21,435  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 10:04:21,435  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 10:04:21,437  INFO:  Creating cursor instance for existing connection
+2022-04-15 10:04:21,438  ERROR:  Error while Creating a connection
+2022-04-15 10:04:21,438  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 10, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:04:21,441  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 10:04:21,441  INFO:  Creating Table
+2022-04-15 10:04:21,442  ERROR:  Error while creating table
+2022-04-15 10:04:21,442  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 10:04:21,445  ERROR:  Error while creating table
+2022-04-15 10:04:21,445  ERROR:  Error while Creating a Table: local variable 'client' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 92, in predict
+    client.close()
+UnboundLocalError: local variable 'client' referenced before assignment
+2022-04-15 10:04:21,446  INFO:  Performing Standard Scaling
+2022-04-15 10:04:21,446  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 10:04:22,319  INFO:  Standard Scaling successful.
+2022-04-15 10:04:22,319  INFO:  Initializing Prediction from operations.py
+2022-04-15 10:04:22,387  INFO:  Prediction action performed successfully
+2022-04-15 10:04:22,387  INFO:  Inserting prediction into table
+2022-04-15 10:04:22,387  INFO:  Inserting predicted result in the table
+2022-04-15 10:04:22,387  ERROR:  Error while inserting data to the table
+2022-04-15 10:04:22,388  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 10:04:22,388  ERROR:  Error while inserting predicted values
+2022-04-15 10:04:22,388  ERROR:  Error while inserting predicted values to the table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 133, in predict
+    mongo_oper.insert_doc(db_name=user_info['db_name'], coll_name=user_info['coll_name'], doc=doc)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 27, in insert_doc
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 10, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:04:22,389  INFO:  Gathering score and confusion matrix
+2022-04-15 10:04:22,389  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 10:04:22,394  INFO:  Accuracy Scored gathered successfully
+2022-04-15 10:04:22,395  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 10:04:22,409  INFO:  Rendering result.html
+2022-04-15 10:04:22,424  INFO:  127.0.0.1 - - [15/Apr/2022 10:04:22] "POST /predict HTTP/1.1" 200 -
+2022-04-15 10:04:22,446  INFO:  127.0.0.1 - - [15/Apr/2022 10:04:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 10:06:55,677  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\app.py', reloading
+2022-04-15 10:06:55,836  INFO:   * Restarting with stat
+2022-04-15 10:06:57,061  WARNING:   * Debugger is active!
+2022-04-15 10:06:57,069  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:06:59,423  INFO:  Getting input from user
+2022-04-15 10:06:59,424  INFO:  Loading User info from user.json
+2022-04-15 10:06:59,425  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 10:06:59,425  INFO:  Creating Database
+2022-04-15 10:06:59,425  INFO:  Initiating Connection....
+2022-04-15 10:06:59,921  DEBUG:  # _do_auth(): user: root
+2022-04-15 10:06:59,921  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 10:06:59,922  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 10:06:59,923  INFO:  Creating cursor instance for existing connection
+2022-04-15 10:06:59,925  ERROR:  Error while Creating a connection
+2022-04-15 10:06:59,925  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:06:59,927  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 10:06:59,927  INFO:  Creating Table
+2022-04-15 10:06:59,929  ERROR:  Error while creating table
+2022-04-15 10:06:59,929  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 10:06:59,932  ERROR:  Error while creating table
+2022-04-15 10:06:59,932  ERROR:  Error while Creating a Table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 96, in predict
+    db = mongo_oper.create_db(db_name=user_info['db_name'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 17, in create_db
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:06:59,933  INFO:  Performing Standard Scaling
+2022-04-15 10:06:59,933  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 10:07:00,803  INFO:  Standard Scaling successful.
+2022-04-15 10:07:00,803  INFO:  Initializing Prediction from operations.py
+2022-04-15 10:07:00,870  INFO:  Prediction action performed successfully
+2022-04-15 10:07:00,870  INFO:  Inserting prediction into table
+2022-04-15 10:07:00,870  INFO:  Inserting predicted result in the table
+2022-04-15 10:07:00,870  ERROR:  Error while inserting data to the table
+2022-04-15 10:07:00,870  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 10:07:00,871  ERROR:  Error while inserting predicted values
+2022-04-15 10:07:00,871  ERROR:  Error while inserting predicted values to the table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 134, in predict
+    mongo_oper.insert_doc(db_name=user_info['db_name'], coll_name=user_info['coll_name'], doc=doc)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 29, in insert_doc
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:07:00,871  INFO:  Gathering score and confusion matrix
+2022-04-15 10:07:00,871  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 10:07:00,877  INFO:  Accuracy Scored gathered successfully
+2022-04-15 10:07:00,877  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 10:07:00,892  INFO:  Rendering result.html
+2022-04-15 10:07:00,907  INFO:  127.0.0.1 - - [15/Apr/2022 10:07:00] "POST /predict HTTP/1.1" 200 -
+2022-04-15 10:07:00,933  INFO:  127.0.0.1 - - [15/Apr/2022 10:07:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 10:08:41,457  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\mongo_oper.py', reloading
+2022-04-15 10:08:41,620  INFO:   * Restarting with stat
+2022-04-15 10:08:42,871  WARNING:   * Debugger is active!
+2022-04-15 10:08:42,881  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:08:44,289  INFO:  Getting input from user
+2022-04-15 10:08:44,291  INFO:  Loading User info from user.json
+2022-04-15 10:08:44,292  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 10:08:44,292  INFO:  Creating Database
+2022-04-15 10:08:44,292  INFO:  Initiating Connection....
+2022-04-15 10:08:44,783  DEBUG:  # _do_auth(): user: root
+2022-04-15 10:08:44,783  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 10:08:44,783  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 10:08:44,785  INFO:  Creating cursor instance for existing connection
+2022-04-15 10:08:44,786  ERROR:  Error while Creating a connection
+2022-04-15 10:08:44,786  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:08:44,789  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 10:08:44,789  INFO:  Creating Table
+2022-04-15 10:08:44,790  ERROR:  Error while creating table
+2022-04-15 10:08:44,790  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 10:08:44,793  ERROR:  Error while creating table
+2022-04-15 10:08:44,793  ERROR:  Error while Creating a Table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 96, in predict
+    db = mongo_oper.create_db(db_name=user_info['db_name'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 17, in create_db
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:08:44,794  INFO:  Performing Standard Scaling
+2022-04-15 10:08:44,794  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 10:08:45,659  INFO:  Standard Scaling successful.
+2022-04-15 10:08:45,660  INFO:  Initializing Prediction from operations.py
+2022-04-15 10:08:45,725  INFO:  Prediction action performed successfully
+2022-04-15 10:08:45,725  INFO:  Inserting prediction into table
+2022-04-15 10:08:45,725  INFO:  Inserting predicted result in the table
+2022-04-15 10:08:45,725  ERROR:  Error while inserting data to the table
+2022-04-15 10:08:45,725  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 10:08:45,725  ERROR:  Error while inserting predicted values
+2022-04-15 10:08:45,725  ERROR:  Error while inserting predicted values to the table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 134, in predict
+    mongo_oper.insert_doc(db_name=user_info['db_name'], coll_name=user_info['coll_name'], doc=doc)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 30, in insert_doc
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:08:45,726  INFO:  Gathering score and confusion matrix
+2022-04-15 10:08:45,726  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 10:08:45,732  INFO:  Accuracy Scored gathered successfully
+2022-04-15 10:08:45,732  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 10:08:45,747  INFO:  Rendering result.html
+2022-04-15 10:08:45,762  INFO:  127.0.0.1 - - [15/Apr/2022 10:08:45] "POST /predict HTTP/1.1" 200 -
+2022-04-15 10:08:45,788  INFO:  127.0.0.1 - - [15/Apr/2022 10:08:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 10:09:37,221  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\mongo_oper.py', reloading
+2022-04-15 10:09:37,377  INFO:   * Restarting with stat
+2022-04-15 10:09:38,599  WARNING:   * Debugger is active!
+2022-04-15 10:09:38,606  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:09:39,646  INFO:   * Detected change in 'D:\\Full Stack Data Science\\Python Project\\ML\\AReM\\mongo_oper.py', reloading
+2022-04-15 10:09:39,728  INFO:   * Restarting with stat
+2022-04-15 10:09:40,970  WARNING:   * Debugger is active!
+2022-04-15 10:09:40,977  INFO:   * Debugger PIN: 950-895-299
+2022-04-15 10:09:43,212  INFO:  Getting input from user
+2022-04-15 10:09:43,214  INFO:  Loading User info from user.json
+2022-04-15 10:09:43,214  INFO:  Creating connection with database params for both MySQL and MongoDB
+2022-04-15 10:09:43,215  INFO:  Creating Database
+2022-04-15 10:09:43,215  INFO:  Initiating Connection....
+2022-04-15 10:09:43,702  DEBUG:  # _do_auth(): user: root
+2022-04-15 10:09:43,702  DEBUG:  # _do_auth(): self._auth_plugin: 
+2022-04-15 10:09:43,703  DEBUG:  new_auth_plugin: caching_sha2_password
+2022-04-15 10:09:43,704  INFO:  Creating cursor instance for existing connection
+2022-04-15 10:09:43,705  ERROR:  Error while Creating a connection
+2022-04-15 10:09:43,705  ERROR:  Error while Creating a connection: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 80, in predict
+    client = mongo_oper.init_conn(username=username, passwd=passwd)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:09:43,708  INFO:  Creating table for both MySQL and MongoDB
+2022-04-15 10:09:43,708  INFO:  Creating Table
+2022-04-15 10:09:43,709  ERROR:  Error while creating table
+2022-04-15 10:09:43,709  ERROR:  Error while creating table: 1050 (42S01): Table 'prediction' already exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 82, in create_table
+    curr.execute(f"create table {tn}( {rows[0]} float, {rows[1]} float,{rows[2]} float,{rows[3]} float,{rows[4]} float,{rows[5]} float, {solvers[0]} varchar(255), {solvers[1]} varchar(255), {solvers[2]} varchar(255), {solvers[3]} varchar(255), {solvers[4]} varchar(255));")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 920, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\connection.py", line 730, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'prediction' already exists
+2022-04-15 10:09:43,712  ERROR:  Error while creating table
+2022-04-15 10:09:43,712  ERROR:  Error while Creating a Table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 96, in predict
+    db = mongo_oper.create_db(db_name=user_info['db_name'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 17, in create_db
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:09:43,713  INFO:  Performing Standard Scaling
+2022-04-15 10:09:43,713  INFO:  Performing Standard Scaling from operations.py
+2022-04-15 10:09:44,590  INFO:  Standard Scaling successful.
+2022-04-15 10:09:44,590  INFO:  Initializing Prediction from operations.py
+2022-04-15 10:09:44,657  INFO:  Prediction action performed successfully
+2022-04-15 10:09:44,657  INFO:  Inserting prediction into table
+2022-04-15 10:09:44,657  INFO:  Inserting predicted result in the table
+2022-04-15 10:09:44,657  ERROR:  Error while inserting data to the table
+2022-04-15 10:09:44,657  ERROR:  Error while inserting data to the table: weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\db_oper.py", line 103, in insert_table
+    curr.execute(f"insert into {tn} values( {x[0]}, {x[1]}, {x[2]}, {x[3]}, {x[4]}, {x[5]}, '{y[0][0]}', '{y[1][0]}', '{y[2][0]}', '{y[3][0]}', '{y[4][0]}' );")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\mysql\connector\cursor.py", line 535, in execute
+    if not self._connection:
+ReferenceError: weakly-referenced object no longer exists
+2022-04-15 10:09:44,658  ERROR:  Error while inserting predicted values
+2022-04-15 10:09:44,658  ERROR:  Error while inserting predicted values to the table: name 'sys' is not defined
+Traceback (most recent call last):
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\app.py", line 134, in predict
+    mongo_oper.insert_doc(db_name=user_info['db_name'], coll_name=user_info['coll_name'], doc=doc)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 31, in insert_doc
+    db = create_db(db_name=db_name)
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 17, in create_db
+    client = init_conn(username=user_info['user'], passwd=user_info['passwd'])
+  File "D:\Full Stack Data Science\Python Project\ML\AReM\mongo_oper.py", line 12, in init_conn
+    client = pymongo.MongoClient(f"mongodb+srv://{username}:" + p + "@cluster0.vp3lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\mongo_client.py", line 712, in __init__
+    srv_max_hosts=srv_max_hosts,
+  File "D:\College Softwares\Anaconda\envs\'AReM'\lib\site-packages\pymongo\uri_parser.py", line 467, in parse_uri
+    python_path = sys.executable or "python"
+NameError: name 'sys' is not defined
+2022-04-15 10:09:44,658  INFO:  Gathering score and confusion matrix
+2022-04-15 10:09:44,659  INFO:  Gathering Accuracy score for all solvers
+2022-04-15 10:09:44,664  INFO:  Accuracy Scored gathered successfully
+2022-04-15 10:09:44,664  INFO:  Gathering Confusion Matrix from info.npy
+2022-04-15 10:09:44,680  INFO:  Rendering result.html
+2022-04-15 10:09:44,695  INFO:  127.0.0.1 - - [15/Apr/2022 10:09:44] "POST /predict HTTP/1.1" 200 -
+2022-04-15 10:09:44,727  INFO:  127.0.0.1 - - [15/Apr/2022 10:09:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-15 10:10:21,540  INFO:  Running app...
+2022-04-15 10:10:21,696  INFO:  Running app...
