@@ -1,0 +1,52 @@
+1. rmeove uneccessay rows
+2. add labels
+3. merge file of same labels
+4. merge all files
+---------------------------------------------------
+5. use different solver for model -> [lbfgs, liblinear, newton-cg, sag, saga]
+6. use auc and roc for diff solver - YT
+---------------------------------------------------
+7. Cross Validation for params: [penalty, c, solver, max_iter, multiclass]
+---------------------------------------------------
+8. Database for prediction
+---------------------------------------------------
+9. Modular Coding: classes, exception, logging, 
+10. Profile Report save
+11. Integration of DVC/ML Flow, OPS pipeline
+12. proc, req
+---------------------------------------------------
+
+.gitignore: .idea, .ipynb_checkpoints, __pycache__, Data, data.csv, data_eng, model.pkl, PreProcess.ipynb, task.txt, test.log
+
+
+Ouput:
+1. Solver Name
+2. Prediction
+3. Score
+4. Confusion Matrix
+5. AUC value
+6. report
+7. ROC AUC compare graph
+
+Conclusions:
+1. No Missing/NaN values -> already imputed - Done
+2. time is irrelevant for prediction as per documentation -> drop time col - Done
+3. No Zero values to handle -> no imputation - Done
+4. No certain Multicollinearity -> VIF for confirmation -> No col with very high vif score - Done
+5. Statsmodels - Done
+6. Some skewness in the dataset but that just represents the nature of the dataset -> outlier detection using boxplot - Done
+
+
+Task For Today(TFT: 13-04-22)
+1. AUC ROC - label_binarize, ovrclassifier(estimator)
+2. Store results in JSON - storing in npy files
+3. API Code for various functions
+4. HTML code
+
+Task For Today(TFT: 14-04-22)
+1. DB(decide what cols) - mysql done, mongodb left
+1. store user personal info in json file
+2. Modularity and fixtures - done
+3. Exception - done
+4. logging - done
+5. Deploy
