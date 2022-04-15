@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "database": "AReM",
+  "username": "root",
+  "passwd": "Kavita@19",
+  "tn": "Prediction",
+  "user": "tewariutkarsh",
+  "db_name": "AReM",
+  "coll_name": "Prediction"
+}
