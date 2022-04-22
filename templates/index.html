@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title xmlns:background_color="http://www.w3.org/1999/xhtml">ML Prediction</title>
+<style>
+    html {
+        height: 100%
+    }
+    h1 {
+        width: 100%;
+        height: 100%;
+        font-weight: bold;
+        font-size: 50px;
+<!--        background-color: #40CFD3-->
+
+    }
+    label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        font-size: 25px
+      }
+
+    input[type=submit] {
+        padding:10px 20px;
+        width: 5px
+        background:#ccc;
+<!--        border:0 none;-->
+        border: 5px solid red;
+        border-radius: 7px;
+        cursor:pointer;
+        -webkit-border-radius: 8px;
+
+         margin: 40px 140px;
+<!--         background-color: #62529c;-->
+    }
+    .group label {
+        font-size: 10px;
+    }
+</style>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Input Details</h1>
+
+    <div class="form">
+        <form action="/predict" method="POST">
+            <label for="avg_rss12"><strong>avg_rss12</strong></label>
+            <input type="text" name="avg_rss12" id="avg_rss12">
+
+            <label for="var_rss12"><strong>var_rss12</strong></label>
+            <input type="text" name="var_rss12" id="var_rss12">
+
+            <label for="avg_rss13"><strong>avg_rss13</strong></label>
+            <input type="text" name="avg_rss13" id="avg_rss13">
+
+            <label for="var_rss13"><strong>var_rss13</strong></label>
+            <input type="text" name="var_rss13" id="var_rss13">
+
+            <label for="avg_rss23"><strong>avg_rss23</strong></label>
+            <input type="text" name="avg_rss23" id="avg_rss23">
+
+            <label for="var_rss23"><strong>var_rss23</strong><br></label>
+            <input type="text" name="var_rss23" id="var_rss23">
+
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</div>
+{% endblock %}
