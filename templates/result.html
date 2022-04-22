@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<style>
+    html {
+        height: 100%
+    }
+    th {
+    font-weight: bold
+    }
+
+    h2 {
+        display: inline
+    }
+
+    input[type=submit] {
+        font-weight: bold
+    }
+
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Result Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+<!--    <link rel="stylesheet" href="./style.css">-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+        <h1><u>Summary</u><br></h1>
+        <table>
+            <tr>
+                <th>Solver</th>
+                <th>Prediction</th>
+                <th>Accuracy</th>
+                <th>Confusion Matrix</th>
+                <th>ROC Curve</th>
+            </tr>
+
+            <tr>
+                <td>{{solvers[0]}}</td>
+                <td>{{y_list_pred[0][0]}}</td>
+                <td>{{scores[0]}}</td>
+<!--                <td>{{confusion_matrices[0]}}</td>-->
+                <td><table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>bending1</th> <th>bending2</th> <th>cycling</th> <th>lying</th> <th>sitting</th> <th>standing</th> <th>walking</th> </tr> </thead> <tbody> <tr> <th>bending1</th> <td>687</td> <td>0</td> <td>9</td> <td>2</td> <td>76</td> <td>45</td> <td>0</td> </tr> <tr> <th>bending2</th> <td>48</td> <td>448</td> <td>30</td> <td>110</td> <td>40</td> <td>14</td> <td>9</td> </tr> <tr> <th>cycling</th> <td>8</td> <td>19</td> <td>926</td> <td>5</td> <td>85</td> <td>33</td> <td>469</td> </tr> <tr> <th>lying</th> <td>0</td> <td>56</td> <td>3</td> <td>1569</td> <td>12</td> <td>128</td> <td>9</td> </tr> <tr> <th>sitting</th> <td>91</td> <td>129</td> <td>58</td> <td>310</td> <td>528</td> <td>741</td> <td>6</td> </tr> <tr> <th>standing</th> <td>16</td> <td>0</td> <td>34</td> <td>220</td> <td>286</td> <td>1203</td> <td>5</td> </tr> <tr> <th>walking</th> <td>0</td> <td>12</td> <td>383</td> <td>0</td> <td>9</td> <td>8</td> <td>796</td> </tr> </tbody></table></td>
+                <td><a href="/static/lbfgs_plot.png">View Graph</a> </td>
+            </tr>
+
+            <tr>
+                <td>{{solvers[1]}}</td>
+                <td>{{y_list_pred[1][0]}}</td>
+                <td>{{scores[1]}}</td>
+<!--                <td>{{confusion_matrices[1]}}</td>-->
+                <td><table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>bending1</th> <th>bending2</th> <th>cycling</th> <th>lying</th> <th>sitting</th> <th>standing</th> <th>walking</th> </tr> </thead> <tbody> <tr> <th>bending1</th> <td>687</td> <td>0</td> <td>9</td> <td>2</td> <td>76</td> <td>45</td> <td>0</td> </tr> <tr> <th>bending2</th> <td>48</td> <td>448</td> <td>30</td> <td>110</td> <td>40</td> <td>14</td> <td>9</td> </tr> <tr> <th>cycling</th> <td>9</td> <td>19</td> <td>925</td> <td>5</td> <td>85</td> <td>33</td> <td>469</td> </tr> <tr> <th>lying</th> <td>0</td> <td>56</td> <td>3</td> <td>1571</td> <td>12</td> <td>126</td> <td>9</td> </tr> <tr> <th>sitting</th> <td>91</td> <td>129</td> <td>57</td> <td>312</td> <td>527</td> <td>741</td> <td>6</td> </tr> <tr> <th>standing</th> <td>16</td> <td>0</td> <td>34</td> <td>220</td> <td>286</td> <td>1203</td> <td>5</td> </tr> <tr> <th>walking</th> <td>0</td> <td>12</td> <td>383</td> <td>0</td> <td>9</td> <td>8</td> <td>796</td> </tr> </tbody></table></td>
+                <td><a href="/static/liblinear_plot.png">View Graph</a> </td>
+            </tr>
+
+            <tr>
+                <td>{{solvers[2]}}</td>
+                <td>{{y_list_pred[2][0]}}</td>
+                <td>{{scores[2]}}</td>
+<!--                <td>{{confusion_matrices[2]}}</td>-->
+                <td><table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>bending1</th> <th>bending2</th> <th>cycling</th> <th>lying</th> <th>sitting</th> <th>standing</th> <th>walking</th> </tr> </thead> <tbody> <tr> <th>bending1</th> <td>687</td> <td>0</td> <td>9</td> <td>2</td> <td>76</td> <td>45</td> <td>0</td> </tr> <tr> <th>bending2</th> <td>48</td> <td>448</td> <td>30</td> <td>110</td> <td>40</td> <td>14</td> <td>9</td> </tr> <tr> <th>cycling</th> <td>8</td> <td>19</td> <td>926</td> <td>5</td> <td>85</td> <td>33</td> <td>469</td> </tr> <tr> <th>lying</th> <td>0</td> <td>56</td> <td>3</td> <td>1569</td> <td>12</td> <td>128</td> <td>9</td> </tr> <tr> <th>sitting</th> <td>91</td> <td>129</td> <td>58</td> <td>310</td> <td>528</td> <td>741</td> <td>6</td> </tr> <tr> <th>standing</th> <td>16</td> <td>0</td> <td>34</td> <td>220</td> <td>286</td> <td>1203</td> <td>5</td> </tr> <tr> <th>walking</th> <td>0</td> <td>12</td> <td>383</td> <td>0</td> <td>9</td> <td>8</td> <td>796</td> </tr> </tbody></table></td>
+                <td><a href="/static/newton_cg_plot.png">View Graph</a> </td>
+            </tr>
+
+            <tr>
+                <td>{{solvers[3]}}</td>
+                <td>{{y_list_pred[3][0]}}</td>
+                <td>{{scores[3]}}</td>
+<!--                <td>{{confusion_matrices[3]}}</td>-->
+                <td><table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>bending1</th> <th>bending2</th> <th>cycling</th> <th>lying</th> <th>sitting</th> <th>standing</th> <th>walking</th> </tr> </thead> <tbody> <tr> <th>bending1</th> <td>687</td> <td>0</td> <td>9</td> <td>2</td> <td>76</td> <td>45</td> <td>0</td> </tr> <tr> <th>bending2</th> <td>48</td> <td>448</td> <td>30</td> <td>110</td> <td>40</td> <td>14</td> <td>9</td> </tr> <tr> <th>cycling</th> <td>8</td> <td>19</td> <td>926</td> <td>5</td> <td>85</td> <td>33</td> <td>469</td> </tr> <tr> <th>lying</th> <td>0</td> <td>56</td> <td>3</td> <td>1569</td> <td>12</td> <td>128</td> <td>9</td> </tr> <tr> <th>sitting</th> <td>91</td> <td>129</td> <td>58</td> <td>310</td> <td>528</td> <td>741</td> <td>6</td> </tr> <tr> <th>standing</th> <td>16</td> <td>0</td> <td>34</td> <td>220</td> <td>286</td> <td>1203</td> <td>5</td> </tr> <tr> <th>walking</th> <td>0</td> <td>12</td> <td>384</td> <td>0</td> <td>9</td> <td>8</td> <td>795</td> </tr> </tbody></table></td>
+                <td><a href="/static/sag_plot.png">View Graph</a> </td>
+            </tr>
+
+            <tr>
+                <td>{{solvers[4]}}</td>
+                <td>{{y_list_pred[4][0]}}</td>
+                <td>{{scores[4]}}</td>
+<!--                <td>{{confusion_matrices[4]}}</td>-->
+                <td><table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>bending1</th> <th>bending2</th> <th>cycling</th> <th>lying</th> <th>sitting</th> <th>standing</th> <th>walking</th> </tr> </thead> <tbody> <tr> <th>bending1</th> <td>687</td> <td>0</td> <td>9</td> <td>2</td> <td>76</td> <td>45</td> <td>0</td> </tr> <tr> <th>bending2</th> <td>48</td> <td>448</td> <td>30</td> <td>110</td> <td>40</td> <td>14</td> <td>9</td> </tr> <tr> <th>cycling</th> <td>8</td> <td>19</td> <td>926</td> <td>5</td> <td>85</td> <td>33</td> <td>469</td> </tr> <tr> <th>lying</th> <td>0</td> <td>56</td> <td>3</td> <td>1569</td> <td>12</td> <td>128</td> <td>9</td> </tr> <tr> <th>sitting</th> <td>91</td> <td>129</td> <td>58</td> <td>310</td> <td>528</td> <td>741</td> <td>6</td> </tr> <tr> <th>standing</th> <td>16</td> <td>0</td> <td>34</td> <td>220</td> <td>286</td> <td>1203</td> <td>5</td> </tr> <tr> <th>walking</th> <td>0</td> <td>12</td> <td>384</td> <td>0</td> <td>9</td> <td>8</td> <td>795</td> </tr> </tbody></table></td>
+                <td><a href="/static/saga_plot.png">View Graph</a></td>
+            </tr>
+
+        </table>
+
+        <div class="form">
+            <form action="/report" method="POST">
+                <h2><br>Pandas  ProfileReport: </h2>
+                <input type="submit" value="View Report">
+            </form>
+        </div>
+
+        <div class="content">
+            <h2><br>Data BoxPlot:   </h2>
+            <a href="/static/data_plot.png" style="background-color:white;width:100%"><strong>View Graph</strong></a>
+        </div>
+
+
+</body>
+
+</html>
